@@ -1,0 +1,6 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "A beginner-friendly rule-based tool-calling demo"
+requires-python = ">=3.12"
+dependencies = []
