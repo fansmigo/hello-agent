@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "查询城市天气",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["--city", "${input:city}"]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "city",
+            "type": "promptString",
+            "description": "输入要查询天气的城市",
+            "default": "北京"
+        }
+    ]
+}
